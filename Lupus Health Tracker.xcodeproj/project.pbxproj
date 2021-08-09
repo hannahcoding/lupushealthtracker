@@ -14,6 +14,25 @@
 		17757F0826A890CF004D444F /* Lupus_Health_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17757F0626A890CF004D444F /* Lupus_Health_Tracker.xcdatamodeld */; };
 		17757F0A26A890D1004D444F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17757F0926A890D1004D444F /* Assets.xcassets */; };
 		17757F0D26A890D1004D444F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17757F0B26A890D1004D444F /* LaunchScreen.storyboard */; };
+		17757F1E26A89583004D444F /* SymptomHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F1426A89583004D444F /* SymptomHistory+CoreDataClass.swift */; };
+		17757F1F26A89583004D444F /* SymptomHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F1526A89583004D444F /* SymptomHistory+CoreDataProperties.swift */; };
+		17757F2026A89583004D444F /* FlareUps+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F1626A89583004D444F /* FlareUps+CoreDataClass.swift */; };
+		17757F2126A89583004D444F /* FlareUps+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F1726A89583004D444F /* FlareUps+CoreDataProperties.swift */; };
+		17757F2226A89583004D444F /* MySymptoms+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F1826A89583004D444F /* MySymptoms+CoreDataClass.swift */; };
+		17757F2326A89583004D444F /* MySymptoms+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F1926A89583004D444F /* MySymptoms+CoreDataProperties.swift */; };
+		17757F2426A89583004D444F /* Journals+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F1A26A89583004D444F /* Journals+CoreDataClass.swift */; };
+		17757F2526A89583004D444F /* Journals+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F1B26A89583004D444F /* Journals+CoreDataProperties.swift */; };
+		17757F2626A89583004D444F /* MyMedications+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F1C26A89583004D444F /* MyMedications+CoreDataClass.swift */; };
+		17757F2726A89583004D444F /* MyMedications+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F1D26A89583004D444F /* MyMedications+CoreDataProperties.swift */; };
+		17757F2A26A932E8004D444F /* MyFlareUpsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F2926A932E8004D444F /* MyFlareUpsViewController.swift */; };
+		17757F2E26A9B067004D444F /* MyJournalsEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F2D26A9B067004D444F /* MyJournalsEntry.swift */; };
+		17757F6326B75543004D444F /* journaltableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F6226B75543004D444F /* journaltableview.swift */; };
+		17757F6526B755CF004D444F /* journalcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F6426B755CF004D444F /* journalcell.swift */; };
+		17757F6726B981AB004D444F /* mymedicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F6626B981AB004D444F /* mymedicationsViewController.swift */; };
+		17757F6B26BCDDF5004D444F /* mySymptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F6A26BCDDF4004D444F /* mySymptoms.swift */; };
+		17757F6F26BCF9F9004D444F /* SymptomHistoryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F6E26BCF9F9004D444F /* SymptomHistoryDetail.swift */; };
+		17757F7126BD6110004D444F /* SymptomHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F7026BD6110004D444F /* SymptomHistoryCell.swift */; };
+		17757F7326BD69B1004D444F /* SymptomHistoryTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757F7226BD69B1004D444F /* SymptomHistoryTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +45,25 @@
 		17757F0926A890D1004D444F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17757F0C26A890D1004D444F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17757F0E26A890D1004D444F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17757F1426A89583004D444F /* SymptomHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SymptomHistory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		17757F1526A89583004D444F /* SymptomHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SymptomHistory+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		17757F1626A89583004D444F /* FlareUps+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlareUps+CoreDataClass.swift"; sourceTree = "<group>"; };
+		17757F1726A89583004D444F /* FlareUps+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlareUps+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		17757F1826A89583004D444F /* MySymptoms+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MySymptoms+CoreDataClass.swift"; sourceTree = "<group>"; };
+		17757F1926A89583004D444F /* MySymptoms+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MySymptoms+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		17757F1A26A89583004D444F /* Journals+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Journals+CoreDataClass.swift"; sourceTree = "<group>"; };
+		17757F1B26A89583004D444F /* Journals+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Journals+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		17757F1C26A89583004D444F /* MyMedications+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyMedications+CoreDataClass.swift"; sourceTree = "<group>"; };
+		17757F1D26A89583004D444F /* MyMedications+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyMedications+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		17757F2926A932E8004D444F /* MyFlareUpsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlareUpsViewController.swift; sourceTree = "<group>"; };
+		17757F2D26A9B067004D444F /* MyJournalsEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJournalsEntry.swift; sourceTree = "<group>"; };
+		17757F6226B75543004D444F /* journaltableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journaltableview.swift; sourceTree = "<group>"; };
+		17757F6426B755CF004D444F /* journalcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalcell.swift; sourceTree = "<group>"; };
+		17757F6626B981AB004D444F /* mymedicationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mymedicationsViewController.swift; sourceTree = "<group>"; };
+		17757F6A26BCDDF4004D444F /* mySymptoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySymptoms.swift; sourceTree = "<group>"; };
+		17757F6E26BCF9F9004D444F /* SymptomHistoryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomHistoryDetail.swift; sourceTree = "<group>"; };
+		17757F7026BD6110004D444F /* SymptomHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomHistoryCell.swift; sourceTree = "<group>"; };
+		17757F7226BD69B1004D444F /* SymptomHistoryTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomHistoryTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +96,43 @@
 		17757EFC26A890CF004D444F /* Lupus Health Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				17757F2826A8959D004D444F /* Data */,
 				17757EFD26A890CF004D444F /* AppDelegate.swift */,
 				17757EFF26A890CF004D444F /* SceneDelegate.swift */,
 				17757F0126A890CF004D444F /* ViewController.swift */,
 				17757F0326A890CF004D444F /* Main.storyboard */,
+				17757F6A26BCDDF4004D444F /* mySymptoms.swift */,
+				17757F6E26BCF9F9004D444F /* SymptomHistoryDetail.swift */,
+				17757F7226BD69B1004D444F /* SymptomHistoryTableView.swift */,
+				17757F7026BD6110004D444F /* SymptomHistoryCell.swift */,
+				17757F6426B755CF004D444F /* journalcell.swift */,
+				17757F2D26A9B067004D444F /* MyJournalsEntry.swift */,
+				17757F6226B75543004D444F /* journaltableview.swift */,
+				17757F2926A932E8004D444F /* MyFlareUpsViewController.swift */,
+				17757F6626B981AB004D444F /* mymedicationsViewController.swift */,
 				17757F0926A890D1004D444F /* Assets.xcassets */,
 				17757F0B26A890D1004D444F /* LaunchScreen.storyboard */,
 				17757F0E26A890D1004D444F /* Info.plist */,
 				17757F0626A890CF004D444F /* Lupus_Health_Tracker.xcdatamodeld */,
 			);
 			path = "Lupus Health Tracker";
+			sourceTree = "<group>";
+		};
+		17757F2826A8959D004D444F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				17757F1426A89583004D444F /* SymptomHistory+CoreDataClass.swift */,
+				17757F1526A89583004D444F /* SymptomHistory+CoreDataProperties.swift */,
+				17757F1626A89583004D444F /* FlareUps+CoreDataClass.swift */,
+				17757F1726A89583004D444F /* FlareUps+CoreDataProperties.swift */,
+				17757F1826A89583004D444F /* MySymptoms+CoreDataClass.swift */,
+				17757F1926A89583004D444F /* MySymptoms+CoreDataProperties.swift */,
+				17757F1D26A89583004D444F /* MyMedications+CoreDataProperties.swift */,
+				17757F1C26A89583004D444F /* MyMedications+CoreDataClass.swift */,
+				17757F1B26A89583004D444F /* Journals+CoreDataProperties.swift */,
+				17757F1A26A89583004D444F /* Journals+CoreDataClass.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +206,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				17757F0226A890CF004D444F /* ViewController.swift in Sources */,
+				17757F2626A89583004D444F /* MyMedications+CoreDataClass.swift in Sources */,
 				17757EFE26A890CF004D444F /* AppDelegate.swift in Sources */,
+				17757F6726B981AB004D444F /* mymedicationsViewController.swift in Sources */,
+				17757F6526B755CF004D444F /* journalcell.swift in Sources */,
 				17757F0826A890CF004D444F /* Lupus_Health_Tracker.xcdatamodeld in Sources */,
+				17757F2726A89583004D444F /* MyMedications+CoreDataProperties.swift in Sources */,
+				17757F2326A89583004D444F /* MySymptoms+CoreDataProperties.swift in Sources */,
+				17757F6B26BCDDF5004D444F /* mySymptoms.swift in Sources */,
+				17757F6F26BCF9F9004D444F /* SymptomHistoryDetail.swift in Sources */,
+				17757F2E26A9B067004D444F /* MyJournalsEntry.swift in Sources */,
+				17757F2A26A932E8004D444F /* MyFlareUpsViewController.swift in Sources */,
+				17757F6326B75543004D444F /* journaltableview.swift in Sources */,
+				17757F2426A89583004D444F /* Journals+CoreDataClass.swift in Sources */,
+				17757F2126A89583004D444F /* FlareUps+CoreDataProperties.swift in Sources */,
+				17757F2026A89583004D444F /* FlareUps+CoreDataClass.swift in Sources */,
+				17757F2226A89583004D444F /* MySymptoms+CoreDataClass.swift in Sources */,
+				17757F7326BD69B1004D444F /* SymptomHistoryTableView.swift in Sources */,
 				17757F0026A890CF004D444F /* SceneDelegate.swift in Sources */,
+				17757F1F26A89583004D444F /* SymptomHistory+CoreDataProperties.swift in Sources */,
+				17757F1E26A89583004D444F /* SymptomHistory+CoreDataClass.swift in Sources */,
+				17757F7126BD6110004D444F /* SymptomHistoryCell.swift in Sources */,
+				17757F2526A89583004D444F /* Journals+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

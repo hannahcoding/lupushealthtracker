@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20E241" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FlareUps" representedClassName="FlareUps" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="hadFlareUp" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Journals" representedClassName="Journals" syncable="YES">
+        <attribute name="bodyText" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="stressLevel" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="MyMedications" representedClassName="MyMedications" syncable="YES">
+        <attribute name="dosage" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="frequency" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="unit" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MySymptoms" representedClassName="MySymptoms" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="symptoms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SymptomHistory" inverseName="symptom" inverseEntity="SymptomHistory"/>
+    </entity>
+    <entity name="SymptomHistory" representedClassName="SymptomHistory" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="severity" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="symptom" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MySymptoms" inverseName="symptoms" inverseEntity="MySymptoms"/>
+    </entity>
+    <elements>
+        <element name="MySymptoms" positionX="-45" positionY="0" width="128" height="59"/>
+        <element name="MyMedications" positionX="-18" positionY="27" width="128" height="89"/>
+        <element name="SymptomHistory" positionX="9" positionY="54" width="128" height="104"/>
+        <element name="FlareUps" positionX="27" positionY="108" width="128" height="59"/>
+        <element name="Journals" positionX="45" positionY="126" width="128" height="74"/>
+    </elements>
 </model>
